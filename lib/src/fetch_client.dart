@@ -198,8 +198,8 @@ class FetchClient extends BaseClient {
       redirected: false,
       request: request,
       headers: {
-        for (final header in response.headers.entries())
-          header.first: header.last,
+        //for (final header in response.headers.entries())
+        //  header.first: header.last,
         'location': response.url,
       },
       isRedirect: true,
